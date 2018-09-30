@@ -4,8 +4,8 @@ body{
 
 .cool{
 	visibility: hidden;
-	width: 102px;
-	height: 18px;
+	width: 140px;
+	height: 55px;
 	background-color: green;
 	transition: background-color 2s;
 }
