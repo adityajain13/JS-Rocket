@@ -20,7 +20,7 @@ var changeState = function(state) {
 			if(countdownNumber < 0) {
 				changeState(3);
 			}
-		}, 50);
+		}, 100);
 	}
 	else if(state == 3) {
 		var success = setTimeout(function() {
@@ -28,7 +28,7 @@ var changeState = function(state) {
 			
 			console.log('randomNumber: ', randomNumber);
 			
-			if(randomNumber > 5) {
+			if(randomNumber > 2) {
 				changeState(4);
 			}
 			else {
